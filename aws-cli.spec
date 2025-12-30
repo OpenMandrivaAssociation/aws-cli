@@ -1,7 +1,7 @@
 Summary:	Command line access to Amazon S3, EC2 and SQS
 Name:		aws-cli
 Version:	2.27.13
-Release:	2
+Release:	3
 License:	GPLv3
 Group:		Networking/Other
 URL:		https://timkay.com/aws/
