@@ -1,7 +1,7 @@
 Summary:	Command line access to Amazon S3, EC2 and SQS
 Name:		aws-cli
-Version:	2.27.13
-Release:	3
+Version:	2.36.13
+Release:	1
 License:	GPLv3
 Group:		Networking/Other
 URL:		https://timkay.com/aws/
@@ -27,7 +27,7 @@ BuildRequires:	python%{pyver}dist(jmespath)
 BuildRequires:	python%{pyver}dist(urllib3)
 
 %patchlist
-aws-cli-2.27.13-accept-newer-libs.patch
+# dropped (no longer applies): aws-cli-2.36.13-accept-newer-libs.patch
 
 %description
 aws is a command line tool that gives you easy access to 
